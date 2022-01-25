@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/page1_imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_person_24"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/page1_textView_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/page1_textView_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone number"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+</LinearLayout>
